@@ -1,0 +1,19 @@
+Pastel Paws AR - GitHub yükleme kısa rehberi
+
+1) README.md ve .gitignore dosyalarını C:\UnityProjects\PastelPawsAR klasörüne koy.
+   Dosya Gezgini > Görünüm > Göster > Gizli öğeler açık olsun; .gitignore gizlenebilir.
+2) GitHub Desktop'u https://desktop.github.com/ adresinden kur ve GitHub hesabına gir.
+3) File > Add Local Repository > Choose... > C:\UnityProjects\PastelPawsAR.
+4) 'This directory does not appear to be a Git repository' mesajında
+   'Create a repository here' veya benzer seçeneği kullan.
+5) Changes sekmesinde Library/ ve Temp/ gibi dosyaların eklenmediğini kontrol et.
+   Yalnızca gerekli Assets/, Packages/, ProjectSettings/, README.md, .gitignore vb. dosyalar kalmalı.
+6) Sol altta Summary: 'Initial commit - Pastel Paws AR'; Commit to main.
+7) Publish repository > Name: PastelPawsAR > 'Keep this code private' işaretli > Publish.
+8) Tarayıcıda depoyu aç > Releases > Draft a new release > Tag: v1.0.0
+   > Title: Pastel Paws AR v1.0.0 > APK'yı yükle > Publish release.
+9) Hocaya repo adresini gönder; özel depoysa Collaborators bölümünden erişim daveti ver.
+
+Not: Bir APK, Unity projesinin kaynak dosyaları değildir. GitHub'a proje klasörünün
+kendisi gitmeli; APK'yı ayrıca Release'e ekle. Public repo açmadan önce
+indirdiğin üçüncü taraf Unity modellerinin yeniden dağıtım lisanslarını kontrol et.
